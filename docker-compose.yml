@@ -3,7 +3,7 @@ version: "3.9"
 services:
   wordpress:
     image: wordpress:php8.2-apache
-    container_name: wp-theme-dev
+    container_name: pipoca1-theme-dev
     ports:
       - "8080:80"
     environment:
@@ -19,7 +19,7 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: wp-db
+    container_name: pipoca1-db
     ports:
       - "3306:3306"
     environment:
