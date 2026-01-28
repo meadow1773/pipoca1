@@ -1,0 +1,2 @@
+<div class="fb-like" data-href="https://www.facebook.com/pipocaradioativa" data-width="100%" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+<div class="fb-comments" data-href="<?php the_permalink() ?>" data-width="100%" data-numposts="15" data-colorscheme="light"></div>
